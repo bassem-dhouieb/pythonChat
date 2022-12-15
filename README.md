@@ -1,6 +1,6 @@
 # pythonChat
 python chat app connected with java app with kafka as a middleware.
-#kafka steps
+# kafka steps
 1 bin/zookeeper-server-start.sh config/zookeeper.properties 
 
 2  bin/kafka-server-start.sh config/server.properties 
@@ -11,7 +11,7 @@ python chat app connected with java app with kafka as a middleware.
 
 5 bin/kafka-console-consumer.sh --topic chat --from-beginning --bootstrap-server localhost:9092
 
-#python package
+# python package
 pip install kafka-python
 
-#you find java code here : https://github.com/bassouma1999/javachat
+# you find java code here : https://github.com/bassouma1999/javachat
