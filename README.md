@@ -13,3 +13,5 @@ python chat app connected with java app with kafka as a middleware.
 
 #python package
 pip install kafka-python
+
+#you find java code here : https://github.com/bassouma1999/javachat
