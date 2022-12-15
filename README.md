@@ -7,11 +7,13 @@ python chat app connected with java app with kafka as a middleware.
 
 3 bin/kafka-topics.sh --create --topic chat --bootstrap-server localhost:9092 
 --replication-factor 1 --partitions 1 
+
 4 bin/kafka-console-producer.sh --topic chat --bootstrap-server localhost:9092
 
 5 bin/kafka-console-consumer.sh --topic chat --from-beginning --bootstrap-server localhost:9092
 
 # python package
 pip install kafka-python
+your python interpreter should be higher than 3.10
 
 # you find java code here : https://github.com/bassouma1999/javachat
